@@ -1,96 +1,296 @@
 <!DOCTYPE html>
-<html>
 
 <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title></title>
-    <meta name="description" content="" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootswatch/4.5.2/lux/bootstrap.min.css"
-        integrity="sha384-9+PGKSqjRdkeAU7Eu4nkJU8RFaH8ace8HGXnkiKMP9I9Te0GJ4/km3L1Z8tXigpG" crossorigin="anonymous" />
-    <link rel="stylesheet" href="main.css">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>brandonkjones.dev</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+        integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
+        crossorigin="anonymous" />
 </head>
 
-<body>
-    <nav class="navbar navbar-expand-lg fixed-top navbar-light bg-light">
-        <img src="assets/flask.png" width="30" height="30" class="d-inline-block align-top ml-2" alt="">
-        <a class="navbar-brand ml-3" href="#">BRANDON JONES</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-4">
-                <li class="nav-item">
-                    <a class="nav-link" data-value="about" href="#">About</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" data-value="portfolio" href="#">Portfolio</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" data-value="blog" href="#">Blog</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" data-value="team" href="#"> Team</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" data-value="contact" href="#">Contact</a>
-                </li>
-            </ul>
+<body style="background-color: #565a5f;">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top shadow-lg">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <i class="fas fa-ghost mr-2"></i>
+                brandonkjones.dev</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+                aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">
+                            <i class="fab fa-fort-awesome mr-1"></i>
+                            Home
+                            <span class="sr-only">(current)</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">
+                            <i class="far fa-address-card mr-1"></i>
+                            About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" target="_blank" href="https://github.com/cerealfordinner">
+                            <i class="fab fa-github-alt mr-1"></i>
+                            My Work</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">
+                            <i class="far fa-comments mr-1"></i>
+                            Contact</a>
+                    </li>
+                </ul>
+            </div>
         </div>
     </nav>
-    <div class="container">
-        <div class="jumbotron">
-            <h1 class="display-4">Quality Assurance Test Engineer
-            </h1>
-            <p class="lead">
-                This is a simple hero unit, a simple jumbotron-style component for
-                calling extra attention to featured content or information.
-            </p>
-            <hr class="my-4" />
-            <p>
-                It uses utility classes for typography and spacing to space content out
-                within the larger container.
-            </p>
-            <p class="lead">
-                <a class="btn btn-light btn-lg" href="#" role="button">Learn more</a>
-            </p>
+    <div class="development">
+        <div class="jumbotron" style="height: 40rem;">
+            <div class="text-center text-white" style="margin-top: 15rem;">
+                <h1 class="display-4">Hi, my name is <strong>Brandon Jones</strong></h1>
+                <h2>and I like to make stuff</h2>
+            </div>
         </div>
     </div>
-    <div class="container">
-        <div class="card-deck">
-            <div class="card">
-                <img class="card-img-top" src="assets/pexels-startup-stock-photos-212286.jpg" alt="Card image cap">
-                <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
-                        additional
-                        content. This content is a little bit longer.</p>
-                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                </div>
-            </div>
-            <div class="card">
-                <img class="card-img-top" src="assets/pexels-startup-stock-photos-212286.jpg" alt="Card image cap">
-                <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">This card has supporting text below as a natural lead-in to additional content.
+    <div class="container" style="background-color: white;">
+        <main class="page cv-page" id="about">
+            <section class="cv-block block-intro border-bottom">
+                <div class="container">
+                    <div class="avatar">
+                        <img class="img-fluid rounded-circle" src="assets/avatar.png">
+                    </div>
+                    <p><strong>Brandon Jones</strong> An IT professional with experience providing admin functions,
+                        support,
+                        and training to a large state agency as well as
+                        other agencies throughout Florida. This experience along with my excellent attention to detail
+                        helps
+                        in my commitment to
+                        develop and implement efficient processes throughout an office resulting in a cohesive work
+                        experience between the
+                        developer, support staff, and administration. Looking to apply my skills to the software
+                        development
+                        industry and lend
+                        my ruthless attention to detail and thirst to continue learning and improving the efficiency of
+                        any
+                        project I work on.
                     </p>
-                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    <a href="#contact" class="btn btn-outline-dark">Hire Me</a>
+                </div>
+            </section>
+            <div class="features-clean">
+                <div class="container">
+                    <div class="intro">
+                        <h2 class="text-center">In case you need some convincing</h2>
+                        <p class="text-center">Through my personal and professional career I have developed extensive
+                            knowledge in certain skill and the use of industry tool</p>
+                    </div>
+                    <div class="row features">
+                        <div class="col-sm-6 col-lg-4 item"><i class="fab fa-python icon"></i>
+                            <h3 class="name">Python</h3>
+                            <p class="description">My python is entirely self taught, but I have grown to love the
+                                language as it has proved to be extremely felxible so whether you are deploying a Flask
+                                webapp or creating a Rest API, the extensive libraries make almost anything possible.
+                            </p>
+                        </div>
+                        <div class="col-sm-6 col-lg-4 item"><i class="fab fa-docker icon"></i>
+                            <h3 class="name">Docker</h3>
+                            <p class="description">Virtualized servers using Docker for test environments and
+                                dev-environments and used Docker with the load balancer tool Nginx</p>
+                        </div>
+                        <div class="col-sm-6 col-lg-4 item"><i class="fab fa-aws icon"></i>
+                            <h3 class="name">Amazon Web Services</h3>
+                            <p class="description">Experience hostin static and dynamic sites on AWS including my person
+                                site and various python apps as well. Managed Amazon Web Services like EC2, S3 bucket,
+                                ACM, and CloudFront</p>
+                        </div>
+                        <div class="col-sm-6 col-lg-4 item"><i class="fab fa-linux icon"></i>
+                            <h3 class="name">Linux/Unix</h3>
+                            <p class="description">Experience in Installing, upgrading and configuring both Ubuntu and
+                                RedHat Linux. </p>
+                        </div>
+                        <div class="col-sm-6 col-lg-4 item"><i class="fab fa-github icon"></i>
+                            <h3 class="name">Fast</h3>
+                            <p class="description">Knowdlegre of using Git from the command line and using Github as my
+                                primary version control solution.</p>
+                        </div>
+                        <div class="col-sm-6 col-lg-4 item"><i class="fas fa-photo-video icon"></i>
+                            <h3 class="name">Multi-media and Design</h3>
+                            <p class="description">Extensive experience with photo manipulation tools like Photoshop and
+                                Lightroom and video editing using tools like Premiere Pro and Final Cut Pro.</p>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div class="card">
-                <img class="card-img-top" src="assets/pexels-startup-stock-photos-212286.jpg" alt="Card image cap">
-                <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
-                        additional
-                        content. This card has even longer content than the first to show that equal height action.</p>
-                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                </div>
+            <section class="cv-block info">
+                <div class="container">
+                    <div class="work-experience group" id="work-experience">
+                        <h2 class="text-center">Work Experience</h2>
+                        <div class="item">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <h3>Digital Systems Administrator</h3>
+                                    <h4 class="organization">Office of the State Attorney</h4>
+                                </div>
+                                <div class="col-md-6">
+                                    <time class="period">05/2015 - Present</time>
+                                </div>
+                            </div>
+                            <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean eget
+                                velit
+                                ultricies, feugiat est sed, efficitur nunc, vivamus vel accumsan dui.</p>
+                        </div>
+                        <div class="item">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <h3>Freelance Web and Graphic Designer</h3>
+                                    <h4 class="organization">brandonkjones.dev</h4>
+                                </div>
+                                <div class="col-md-6">
+                                    <time class="period">05/2012 - 12/2017</time>
+                                </div>
+                            </div>
+                            <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean eget
+                                velit
+                                ultricies, feugiat est sed, efficitur nunc, vivamus vel accumsan dui.</p>
+                        </div>
+                    </div>
+                    <div class="education group" id="education">
+                        <h2 class="text-center">Education</h2>
+                        <div class="item">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <h3>Bachelor of Arts - Political Science</h3>
+                                    <h4 class="organization">Florida Atlantic University</h4>
+                                </div>
+                                <div class="col-md-6">
+                                    <time class="period">09/2013 - 05/2017</time>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="group" id="skills">
+                        <h1>Skills</h1>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="skills info-card">
+                                    <h2>Tech</h2>
+                                    <h3>Python</h3>
+                                    <h3>CSS</h3>
+                                    <h3>HTML</h3>
+                                    <h3>Linux/Unix</h3>
+                                    <h3>Docker</h3>
+                                    <h3>Git/Github</h3>
+                                    <h3>Adobe Photoshop</h3>
+                                    <h3>Adobe Premiere Pro</h3>
+                                    <h3>Microsoft SHarepoint</h3>
+                                    <h3>Wordpress</h3>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="skills info-card">
+                                    <h2>Soft</h2>
+                                    <h3>Agile</h3>
+                                    <h3>Scrum</h3>
+                                    <h3>Python</h3>
+                                    <h3>Docker</h3>
+                                    <h3>Git/Github</h3>
+                                    <h3>Adobe Photoshop</h3>
+                                    <h3>Adobe Premiere Pro</h3>
+                                    <h3>Microsoft Sharepoint</h3>
+                                    <h3>Wordpress</h3>
+                                </div>
+                            </div>
+                            <div class="hobbies group" id="hobbies">
+                                <h2 class="text-center">Hobbies</h2>
+                                <p class="text-center text-muted">I like to spend a lot of time learning new tools and
+                                    techniques and I belive this has helped me grow as a developer.
+                                    I also enjoy playing videos games in my free time and I love a game with a good
+                                    economy. When able to I really enjoy traveling not just becuase it's
+                                    exciting in its own right, but also because it allows me to photograph different
+                                    cities and landscapes. If the weather is good I will take a ride through town
+                                    on my fixed gear bike.
+                                </p>
+                            </div>
+                        </div>
+            </section>
+            <div class="container">
+                <h2 class="text-center" id="contact">Contact Me</h2>
+
+                <form id="gform" name="gform" method="post" target="hidden_iframe" onsubmit="submitted=true;"
+                    action="https://docs.google.com/forms/d/e/1FAIpQLScLzhqq3YaNUWNgmjraBj79t6T1KUaCj2blgsbXwnwy4H02Lw/formResponse?">
+
+                    <div class="form-group">
+                        <label for="entry.560450498">
+                            <h4>Name:</h4>
+                        </label>
+                        <input type="text" id="entry.560450498" name="entry.560450498" placeholder="Name..."
+                            class="form-control" />
+                    </div>
+
+                    <div class="form-group">
+                        <label for="entry.979739775">
+                            <h4>Phone:</h4>
+                        </label>
+                        <input type="phone" id="entry.979739775" name="entry.979739775" placeholder="Phone..."
+                            class="form-control" />
+                    </div>
+
+                    <div class="form-group">
+                        <label for="entry.852015372">
+                            <h4>Email:</h4>
+                        </label>
+                        <input type="email" id=entry.852015372" name="entry.852015372" placeholder="Email..."
+                            class="form-control" />
+                    </div>
+
+                    <div class="form-group">
+                        <label for="entry.310710310">
+                            <h4>What can we do together:</h4>
+                        </label>
+                        <textarea id="entry.310710310" rows="3" name="entry.310710310" placeholder="Message…"
+                            class="form-control"></textarea>
+                    </div>
+                    <button type="submit" onClick="" class="btn btn-dark">Submit</button>
+                </form>
+
+                <iframe name="hidden_iframe" id="hidden_iframe" style="display: none;"
+                    onload="if(submitted){}"></iframe>
+
             </div>
-        </div>
+            <br>
+            <footer class="page-footer">
+                <div class="container">
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/brandon-jones-210b4b76/"><i class="fab fa-linkedin-in"
+                                title="Linkedin"></i></a>
+                        <a href="https://github.com/cerealfordinner"><i class="fab fa-github" title="Github"></i></a>
+                        <a href="https://500px.com/p/cerealfordinnerx?view=photos"><i class="fab fa-500px"
+                                title="500px"></i></a>
+                    </div>
+                </div>
+            </footer>
+        </main>
     </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"
+        integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg=="
+        crossorigin="anonymous"></script>
+    <script type="text/javascript">
+        var submitted = false;
+    </script>
+    <script type="text/javascript">
+        $('#gform').on('submit', function (e) {
+            $('#gform *').fadeOut(1000);
+            $('#gform').append('<div style="margin:auto;display:block;width: 100%;text-align: center"><br><h3>Thank you for reaching out to me, I will get in touch with you as soon as possible and I look forward to seeing what we can do together</h3><br></div>');
+        });
+    </script>
 </body>
 
 </html>
